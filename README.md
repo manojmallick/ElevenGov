@@ -78,14 +78,18 @@ npm start
 
 ### Vercel (Recommended)
 
-1. Push your code to GitHub
-2. Import project to Vercel
-3. Add environment variables in Vercel dashboard:
-   - `ELEVENLABS_API_KEY`
-   - `DIRK_VOICE_ID` (optional)
-4. Deploy
+1. Push your code to GitHub (make sure `.env.local` is in `.gitignore`)
+2. Go to [vercel.com](https://vercel.com) and import your repository
+3. During import or in Project Settings → Environment Variables, add:
+   - **Key:** `ELEVENLABS_API_KEY` → **Value:** Your ElevenLabs API key
+   - **Key:** `DIRK_VOICE_ID` → **Value:** `pNInz6obpgDQGcFmaJgB` (optional, defaults to Adam)
+   - **Key:** `NEXT_PUBLIC_APP_URL` → **Value:** Your production URL (optional)
+4. Click Deploy
 
-**Note:** Do not commit `.env.local` to version control. Always use Vercel's environment variable system.
+**Important:** 
+- Never commit `.env.local` to git
+- Add environment variables directly in Vercel dashboard
+- API keys are encrypted and only accessible server-side
 
 ### Other Platforms
 
