@@ -1,0 +1,10 @@
+{
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "env": {
+    "ELEVENLABS_API_KEY": "@elevenlabs_api_key",
+    "DIRK_VOICE_ID": "@dirk_voice_id"
+  }
+}
