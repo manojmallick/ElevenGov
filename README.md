@@ -1,5 +1,13 @@
 # ElevenGov
 
+[![Live Demo](https://img.shields.io/badge/demo-live-success?style=for-the-badge&logo=vercel)](https://eleven-gov.vercel.app)
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat&logo=typescript)](https://www.typescriptlang.org/)
+[![ElevenLabs](https://img.shields.io/badge/ElevenLabs-TTS-purple?style=flat)](https://elevenlabs.io/)
+[![Hackathon](https://img.shields.io/badge/%23ElevenHacks-2026-orange?style=flat)](https://lablab.ai/event/elevenhacks-2026)
+
+> **🎭 [View Live Demo](https://eleven-gov.vercel.app)** — Experience bureaucracy like it's 2016
+
 A satirical recreation of ElevenLabs.io as a 2016 EU government bureaucracy portal.
 
 ## Overview
