@@ -32,7 +32,7 @@ graph TB
         E --> F
         E --> G
         
-        F --> F1[/api/tts]
+        F --> F1["API TTS Route"]
     end
     
     subgraph "Business Logic"
@@ -49,7 +49,7 @@ graph TB
     subgraph "External Services"
         O[ElevenLabs API]
         O --> O1[Text-to-Speech Engine]
-        O --> O2[Voice ID: Dirk/Adam]
+        O --> O2[Voice ID - Dirk Adam]
         O --> O3[Multilingual Model v2]
     end
     
@@ -128,7 +128,7 @@ graph LR
     end
     
     subgraph "Shared UI Components"
-        E[components/ui/] --> E1[Button]
+        E["components/ui"] --> E1[Button]
         E --> E2[Dialog]
         E --> E3[Card]
         E --> E4[Badge]
@@ -148,20 +148,20 @@ graph LR
 sequenceDiagram
     participant U as User
     participant UI as UI Component
-    participant API as /api/tts Route
+    participant API as API TTS Route
     participant EL as ElevenLabs API
     participant Browser as Audio Player
     
     U->>UI: Click "Listen" or type in Dirk
     UI->>UI: Validate input text
-    UI->>API: POST /api/tts {text: "..."}
+    UI->>API: POST to API TTS endpoint
     
     API->>API: Extract text from request
     API->>API: Load API key from env
-    API->>API: Get voice ID (Dirk/Adam)
+    API->>API: Get voice ID Dirk Adam
     
-    API->>EL: POST /v1/text-to-speech/{voiceId}
-    Note over API,EL: Headers: xi-api-key<br/>Body: {text, model_id, voice_settings}
+    API->>EL: POST to text-to-speech endpoint
+    Note over API,EL: Headers xi-api-key<br/>Body with text model_id voice_settings
     
     EL->>EL: Generate TTS audio
     EL-->>API: Audio stream (MP3)
