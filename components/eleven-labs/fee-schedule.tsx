@@ -6,7 +6,7 @@ export function FeeSchedule() {
   const accessTiers = [
     {
       name: 'Provisional Access Tier',
-      ref: 'DG-FEE-2024/0001/A',
+      ref: 'DG-FEE-2026/0001/A',
       monthlyFee: '€0.00*',
       description: 'Limited evaluation access (subject to monthly review)',
       features: [
@@ -19,7 +19,7 @@ export function FeeSchedule() {
     },
     {
       name: 'Registered Operator Tier',
-      ref: 'DG-FEE-2024/0002/B',
+      ref: 'DG-FEE-2026/0002/B',
       monthlyFee: '€420.00*',
       description: 'Standard commercial access (12-month commitment required)',
       features: [
@@ -33,7 +33,7 @@ export function FeeSchedule() {
     },
     {
       name: 'Institutional Procurement Tier',
-      ref: 'DG-FEE-2024/0003/C',
+      ref: 'DG-FEE-2026/0003/C',
       monthlyFee: 'Custom quote',
       description: 'Enterprise government access (formal negotiation required)',
       features: [
@@ -51,7 +51,7 @@ export function FeeSchedule() {
   return (
     <div className="gov-section">
       <h2 className="text-base font-bold text-primary mb-1">Fee Schedule and Access Tiers</h2>
-      <div className="ref-number">[Ref: DG-FEES-2024/0124/M]</div>
+      <div className="ref-number">[Ref: DG-FEES-2026/0124/M]</div>
       
       <p className="text-xs mt-3 text-gray-700 mb-4">
         All fees subject to value-added tax (VAT) per Council Directive 2006/112/EC. Payment terms: net 30 days from invoice date. Invoices must reference the institutional purchase order number.
@@ -106,7 +106,7 @@ export function FeeSchedule() {
           (response time: 20-30 business days)
         </p>
       </div>
-      <SectionDownload sectionRef="DG-FEES-2024/0124/M" />
+      <SectionDownload sectionRef="DG-FEES-2026/0124/M" />
     </div>
   );
 }

@@ -6,7 +6,7 @@ export function VoiceShowcase() {
   return (
     <div className="gov-section">
       <h2 className="text-base font-bold text-primary mb-1">Authorized Synthetic Voice Asset Categories</h2>
-      <div className="ref-number">[Ref: DG-VOICE-2024/0048/A]</div>
+      <div className="ref-number">[Ref: DG-VOICE-2026/0048/A]</div>
 
       <table className="gov-table mt-2">
         <thead>
@@ -46,20 +46,20 @@ export function VoiceShowcase() {
       </table>
 
       <div className="eu-yellow-box">
-        <p className="font-bold text-xs">⚠ Important Notice [Ref: DG-ADM-2024/1829/C]</p>
+        <p className="font-bold text-xs">⚠ Important Notice [Ref: DG-ADM-2026/1829/C]</p>
         <p className="text-xs mt-1">
-          All deployments require compliance audit<sup>5</sup>. Unauthorized use violates EU Regulation 2024/1884. Penalties: €500,000* or 3%* annual revenue.
+          All deployments require compliance audit<sup>5</sup>. Unauthorized use violates EU Regulation 2026/1884. Penalties: €500,000* or 3%* annual revenue.
         </p>
       </div>
 
       <div className="mt-2 pt-2 border-t border-gray-300 text-xs text-gray-600">
-        <p><sup>3</sup> Tier 1 classification per Annex II of Regulation 2024/1873</p>
-        <p><sup>4</sup> Professional rendering requires Form EUD-PRO-2024 and institutional verification</p>
+        <p><sup>3</sup> Tier 1 classification per Annex II of Regulation 2026/1873</p>
+        <p><sup>4</sup> Professional rendering requires Form EUD-PRO-2026 and institutional verification</p>
         <p><sup>5</sup> Audit frequency: annual for Standard tier, quarterly for Premium tier</p>
-        <p>* Penalty amounts subject to adjustment per ECB inflation index (base year: 2024)</p>
+        <p>* Penalty amounts subject to adjustment per ECB inflation index (base year: 2026)</p>
       </div>
 
-      <SectionDownload sectionRef="DG-VOICE-2024/0048/A" />
+      <SectionDownload sectionRef="DG-VOICE-2026/0048/A" />
     </div>
   );
 }

@@ -6,7 +6,7 @@ export function DocumentMetadata() {
         <tbody>
           <tr className="border-b border-gray-300">
             <td className="py-1 text-gray-600 font-bold w-32">Reference number:</td>
-            <td className="py-1 font-mono">DG-VOICE-2024/0047/B-EN</td>
+            <td className="py-1 font-mono">DG-VOICE-2026/0047/B-EN</td>
           </tr>
           <tr className="border-b border-gray-300">
             <td className="py-1 text-gray-600 font-bold">Responsible unit:</td>
@@ -18,7 +18,7 @@ export function DocumentMetadata() {
           </tr>
           <tr className="border-b border-gray-300">
             <td className="py-1 text-gray-600 font-bold">Last review date:</td>
-            <td className="py-1">22 February 2024</td>
+            <td className="py-1">22 February 2026</td>
           </tr>
           <tr className="border-b border-gray-300">
             <td className="py-1 text-gray-600 font-bold">Next review:</td>

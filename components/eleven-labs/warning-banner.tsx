@@ -34,7 +34,7 @@ export function WarningBanner() {
           🔊
         </button>
         NOTICE: This portal will be unavailable for scheduled maintenance from 23:00 to 06:00 CET on the third Thursday of each month. 
-        <span className="ml-2">[Ref: DG-MAINT-2024/0892/Z]</span>
+        <span className="ml-2">[Ref: DG-MAINT-2026/0892/Z]</span>
       </p>
       <p className="text-xs mt-1">
         For urgent enquiries during maintenance windows, contact the 24-hour helpline: +32 2 299 11 11 (standard call charges apply)

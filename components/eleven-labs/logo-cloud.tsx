@@ -10,7 +10,7 @@ export function LogoCloud() {
   return (
     <div className="bg-secondary border border-gray-400 p-6 m-4">
       <h3 className="text-center font-bold text-sm text-primary mb-4">
-        Institutional Partners [Ref: DG-PART-2024/0091/D]
+        Institutional Partners [Ref: DG-PART-2026/0091/D]
       </h3>
       <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
         {orgs.map((org) => (

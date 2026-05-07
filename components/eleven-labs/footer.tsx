@@ -44,7 +44,7 @@ export function Footer() {
         <div className="mt-8 pt-6 border-t border-gray-400 text-xs text-gray-700">
           <div className="flex flex-col md:flex-row justify-between gap-4">
             <div>
-              <p>Last updated: 14 March 2016 | © European Union 2024</p>
+              <p>Last updated: 14 March 2016 | © European Union 2026</p>
               <p className="mt-1">This document has been viewed 847,293 times</p>
             </div>
             <div className="flex gap-4">

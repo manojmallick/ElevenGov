@@ -7,8 +7,8 @@ type PanelState = 'idle' | 'loading' | 'playing' | 'paused' | 'error'
 const PAGE_SUMMARY =
   'Welcome to the Official ElevenLabs Voice Technology Portal, operated by the European Digital Infrastructure Directorate. ' +
   'This portal provides access to Authorised Synthetic Voice Asset Generation, Personal Biometric Voice Replication, ' +
-  'and Automated Citizen Interaction Modules, subject to Directive 2024 EU VOICE 47. ' +
-  'Please ensure you have reviewed Annex C before submitting Form EUD VA 2024. ' +
+  'and Automated Citizen Interaction Modules, subject to Directive 2026 EU VOICE 47. ' +
+  'Please ensure you have reviewed Annex C before submitting Form EUD VA 2026. ' +
   'Thank you for your patience.'
 
 export function AudioPanel({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
@@ -163,7 +163,7 @@ export function AudioPanel({ isOpen, onClose }: { isOpen: boolean; onClose: () =
             <p className="text-xs text-yellow-800">
               <span className="font-bold">⚠ Beta Notice:</span> This audio service is provided
               in beta. Response times may vary during peak hours (09:00–17:00 CET). Uptime:
-              99.2%*. Last updated: 14 March 2024.
+              99.2%*. Last updated: 14 March 2026.
             </p>
           </div>
         </div>

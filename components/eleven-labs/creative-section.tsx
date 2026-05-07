@@ -3,7 +3,7 @@ export function CreativeSection() {
     <div className="p-6 m-4 space-y-4">
       <div className="bg-white border border-gray-400 p-6">
         <h2 className="text-xl font-bold text-primary mb-2">Authorized Applications and Deployment Scenarios</h2>
-        <div className="ref-number">[Ref: DG-APP-2024/0055/G]</div>
+        <div className="ref-number">[Ref: DG-APP-2026/0055/G]</div>
 
         <div className="mt-4 space-y-4">
           <div className="bg-secondary border border-gray-400 p-3">

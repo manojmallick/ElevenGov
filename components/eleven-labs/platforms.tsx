@@ -5,7 +5,7 @@ export function Platforms() {
         {/* ElevenCreative -> ElevenContent */}
         <div className="bg-white border border-gray-400 p-6">
           <h3 className="text-lg font-bold text-primary mb-2">Synthetic Media Generation Authority</h3>
-          <div className="ref-number">[Ref: DG-SYN-2024/0052/E]</div>
+          <div className="ref-number">[Ref: DG-SYN-2026/0052/E]</div>
           <p className="text-xs mt-3 leading-relaxed">
             Deploy authorized synthetic media assets for content production. Includes text-to-speech conversion, audio-visual synchronization, and semantic-preserving voice attribute modification.
           </p>
@@ -23,7 +23,7 @@ export function Platforms() {
         {/* ElevenAgents -> ElevenDialogue */}
         <div className="bg-white border border-gray-400 p-6">
           <h3 className="text-lg font-bold text-primary mb-2">Conversational AI Agent Registry</h3>
-          <div className="ref-number">[Ref: DG-AGENT-2024/0053/F]</div>
+          <div className="ref-number">[Ref: DG-AGENT-2026/0053/F]</div>
           <p className="text-xs mt-3 leading-relaxed">
             Configure, deploy, and monitor conversational artificial intelligence systems compliant with EU AI Act provisions. Includes natural language processing, dialogue management, and compliance monitoring.
           </p>

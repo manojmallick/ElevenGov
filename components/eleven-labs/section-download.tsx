@@ -6,7 +6,7 @@ export function SectionDownload({ sectionRef }: { sectionRef: string }) {
   const handleDownload = () => {
     playSfx('download')
     setTimeout(() => {
-      alert(`PDF generation initiated for section ${sectionRef}.\n\nDocument will be watermarked with session ID and timestamp.\nExpected processing time: 15-30 seconds.\n\n[Ref: DG-PDF-2024/AUTO]`)
+      alert(`PDF generation initiated for section ${sectionRef}.\n\nDocument will be watermarked with session ID and timestamp.\nExpected processing time: 15-30 seconds.\n\n[Ref: DG-PDF-2026/AUTO]`)
     }, 300)
   }
 

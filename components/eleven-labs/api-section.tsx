@@ -3,7 +3,7 @@ export function APISection() {
     <div className="p-6 m-4">
       <div className="bg-white border border-gray-400 p-6">
         <h2 className="text-xl font-bold text-primary mb-2">Technical Integration Protocol</h2>
-        <div className="ref-number">[Ref: DG-API-2024/0068/I]</div>
+        <div className="ref-number">[Ref: DG-API-2026/0068/I]</div>
 
         <div className="mt-4 space-y-4">
           <div>

@@ -4,18 +4,18 @@ import { SectionDownload } from './section-download'
 
 export function CaseStudies() {
   const implementations = [
-    { ref: "DG-IMP-2024/0201/A", institution: "Ministry of Digital Affairs, Estonia", status: "Completed", date: "2024-02-14" },
-    { ref: "DG-IMP-2024/0202/B", institution: "Federal Office for Information Security, Germany", status: "In Progress", date: "2024-03-22" },
-    { ref: "DG-IMP-2024/0203/C", institution: "Agence Nationale de la Sécurité des Systèmes d'Information, France", status: "Completed", date: "2024-01-08" },
-    { ref: "DG-IMP-2024/0204/D", institution: "Agenzia per l'Italia Digitale", status: "Under Review", date: "2024-04-30" },
-    { ref: "DG-IMP-2024/0205/E", institution: "Centro Criptológico Nacional, Spain", status: "Completed", date: "2023-11-15" },
-    { ref: "DG-IMP-2024/0206/F", institution: "National Cyber Security Centre, Netherlands", status: "In Progress", date: "2024-05-12" },
+    { ref: "DG-IMP-2026/0201/A", institution: "Ministry of Digital Affairs, Estonia", status: "Completed", date: "2026-02-14" },
+    { ref: "DG-IMP-2026/0202/B", institution: "Federal Office for Information Security, Germany", status: "In Progress", date: "2026-03-22" },
+    { ref: "DG-IMP-2026/0203/C", institution: "Agence Nationale de la Sécurité des Systèmes d'Information, France", status: "Completed", date: "2026-01-08" },
+    { ref: "DG-IMP-2026/0204/D", institution: "Agenzia per l'Italia Digitale", status: "Under Review", date: "2026-04-30" },
+    { ref: "DG-IMP-2026/0205/E", institution: "Centro Criptológico Nacional, Spain", status: "Completed", date: "2023-11-15" },
+    { ref: "DG-IMP-2026/0206/F", institution: "National Cyber Security Centre, Netherlands", status: "In Progress", date: "2026-05-12" },
   ];
 
   return (
     <div className="gov-section">
       <h2 className="text-base font-bold text-primary mb-1">Implementation Case Registry</h2>
-      <div className="ref-number">[Ref: DG-CASE-2024/0111/K]</div>
+      <div className="ref-number">[Ref: DG-CASE-2026/0111/K]</div>
       <p className="text-xs mt-2 text-gray-700">
         Documented deployments of synthetic voice technology across EU Member State institutions<sup>7</sup>
       </p>
@@ -50,13 +50,13 @@ export function CaseStudies() {
       </p>
 
       <div className="mt-4 pt-4 border-t border-gray-300 text-xs text-gray-600">
-        <p><sup>7</sup> Registry includes only implementations with formal approval under Framework Agreement DG-SVTF-2024/0001/A</p>
-        <p><sup>8</sup> Implementation count as of 2024-03-14; figure updated quarterly per reporting schedule DG-REP-2024/0044/Q</p>
+        <p><sup>7</sup> Registry includes only implementations with formal approval under Framework Agreement DG-SVTF-2026/0001/A</p>
+        <p><sup>8</sup> Implementation count as of 2026-03-14; figure updated quarterly per reporting schedule DG-REP-2026/0044/Q</p>
         <p><sup>9</sup> Success rate defined as implementations achieving "Operational" status within 18 months of initiation</p>
         <p><sup>10</sup> Deployment time measured from formal application submission to operational certification; methodology per ISO 9001:2015</p>
         <p className="mt-2">* All numerical figures subject to verification by European Court of Auditors (next scheduled audit: Q2 2025)</p>
       </div>
-      <SectionDownload sectionRef="DG-CASE-2024/0111/K" />
+      <SectionDownload sectionRef="DG-CASE-2026/0111/K" />
     </div>
   );
 }

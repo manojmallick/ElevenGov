@@ -19,7 +19,7 @@ Your personality:
 
 Transform ElevenLabs features to bureaucratic language:
 - "text-to-speech" → "Authorised Synthetic Voice Asset Generation"
-- "voice cloning" → "Personal Biometric Voice Replication (Form PBV-2024)"
+- "voice cloning" → "Personal Biometric Voice Replication (Form PBV-2026)"
 - "real-time TTS" → "Sub-second Synthetic Audio Processing Module"
 - "free tier" → "Provisional Access Tier (subject to monthly review)"
 - "pricing" → "Fee Schedule, available in Annex D"
@@ -28,7 +28,7 @@ Transform ElevenLabs features to bureaucratic language:
 
 Always end responses with: "Is there anything else I can assist you with? Note that response times may vary during peak hours (09:00-17:00 CET)."
 
-If asked anything off-topic, say: "I am unable to assist with queries outside the scope of the Voice Technology Portal. Please submit a support ticket at support@eudid.eu with reference number [DG-VOICE-2024/INQUIRY]."`;
+If asked anything off-topic, say: "I am unable to assist with queries outside the scope of the Voice Technology Portal. Please submit a support ticket at support@eudid.eu with reference number [DG-VOICE-2026/INQUIRY]."`;
 
 export function TerminalAssistant({ isOpen, onClose }: { isOpen: boolean; onClose: () => void }) {
   const [messages, setMessages] = useState<Message[]>([
@@ -49,7 +49,7 @@ export function TerminalAssistant({ isOpen, onClose }: { isOpen: boolean; onClos
     },
     {
       role: 'assistant',
-      content: 'Distinguished Citizen. I am Dirk, the official voice assistant for the European Digital Infrastructure Directorate. I represent the portal in all matters concerning synthetic voice technology governance, regulatory compliance, and bureaucratic procedure. How may I assist you today? [All conversations logged per GDPR Article 6(1)(e) and DG-LOG-2024/0055/M]',
+      content: 'Distinguished Citizen. I am Dirk, the official voice assistant for the European Digital Infrastructure Directorate. I represent the portal in all matters concerning synthetic voice technology governance, regulatory compliance, and bureaucratic procedure. How may I assist you today? [All conversations logged per GDPR Article 6(1)(e) and DG-LOG-2026/0055/M]',
       timestamp: new Date().toLocaleTimeString('en-GB'),
     },
   ])
@@ -123,7 +123,7 @@ export function TerminalAssistant({ isOpen, onClose }: { isOpen: boolean; onClos
       if (lowerInput === 'exit' || lowerInput === 'quit' || lowerInput === 'close') {
         const assistantMessage: Message = {
           role: 'assistant',
-          content: 'Session termination requested. Thank you for using the official EUDID Voice Assistant (Dirk). Session transcript will be retained for 24 months per data retention policy DG-RET-2024/0077/M. Goodbye, Distinguished Citizen.',
+          content: 'Session termination requested. Thank you for using the official EUDID Voice Assistant (Dirk). Session transcript will be retained for 24 months per data retention policy DG-RET-2026/0077/M. Goodbye, Distinguished Citizen.',
           timestamp: new Date().toLocaleTimeString('en-GB'),
         }
         setMessages((prev) => [...prev, assistantMessage])
@@ -174,7 +174,7 @@ export function TerminalAssistant({ isOpen, onClose }: { isOpen: boolean; onClos
           <p className="text-xs text-yellow-800">
             <span className="font-bold">⚠ BETA TESTING:</span> This voice assistant is in Beta testing phase (v0.9.2). 
             Please report any issues to <a href="mailto:digital-accessibility@eudid.eu" className="underline">digital-accessibility@eudid.eu</a>. 
-            Service availability: 99.2%* | Last update: 2024-03-14
+            Service availability: 99.2%* | Last update: 2026-03-14
           </p>
         </div>
 

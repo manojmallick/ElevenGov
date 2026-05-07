@@ -17,7 +17,7 @@ export function APIStatus() {
   return (
     <div className="gov-section">
       <h2 className="text-base font-bold text-primary mb-1">API Endpoint Service Status</h2>
-      <div className="ref-number">[Ref: DG-STAT-2024/0101/J]</div>
+      <div className="ref-number">[Ref: DG-STAT-2026/0101/J]</div>
       <p className="text-xs mt-2 text-gray-700">
         Real-time<sup>3</sup> status of all authorized API endpoints. Last refresh: 14:32:17 CET<sup>4</sup>
       </p>
@@ -55,7 +55,7 @@ export function APIStatus() {
       </table>
 
       <div className="mt-4 pt-4 border-t border-gray-300 text-xs text-gray-600">
-        <p><sup>3</sup> "Real-time" defined as data refreshed at 15-minute intervals per Service Level Agreement DG-SLA-2024/0044/R</p>
+        <p><sup>3</sup> "Real-time" defined as data refreshed at 15-minute intervals per Service Level Agreement DG-SLA-2026/0044/R</p>
         <p><sup>4</sup> Timestamps displayed in Central European Time (CET/CEST) as per EU standard timekeeping protocol</p>
         <p><sup>5</sup> Resolution timeline subject to outcome of ongoing compliance review under EU AI Act Article 6(2); formal notification will be issued via Official Journal of the European Union</p>
         <p className="mt-2">* Uptime percentages calculated using methodology defined in ISO/IEC 20000-1:2018 and verified by independent auditor (Ernst & Young, Brussels office)</p>
@@ -65,13 +65,13 @@ export function APIStatus() {
         <p className="font-bold text-xs">⚠ Service Degradation Notice</p>
         <p className="text-xs mt-1">
           The /api/v1/research/acoustic-analysis endpoint is currently under review following the implementation of enhanced safeguards 
-          pursuant to Commission Decision 2024/1847<sup>6</sup>. Alternative manual submission process available via Form EUD-RES-2024/ALT.
+          pursuant to Commission Decision 2026/1847<sup>6</sup>. Alternative manual submission process available via Form EUD-RES-2026/ALT.
         </p>
         <p className="text-xs mt-2 text-gray-700">
-          <sup>6</sup> Commission Decision of 12 September 2024 concerning provisional measures for AI research endpoints
+          <sup>6</sup> Commission Decision of 12 September 2026 concerning provisional measures for AI research endpoints
         </p>
       </div>
-      <SectionDownload sectionRef="DG-STAT-2024/0101/J" />
+      <SectionDownload sectionRef="DG-STAT-2026/0101/J" />
     </div>
   );
 }

@@ -8,15 +8,15 @@ export function ResearchTimeline() {
     { date: "2019-04-17", ref: "2019/881", title: "Cybersecurity Act", status: "In Force" },
     { date: "2022-10-19", ref: "2022/2065", title: "Digital Services Act (DSA)", status: "In Force" },
     { date: "2022-12-14", ref: "2022/2555", title: "NIS2 Directive", status: "In Force" },
-    { date: "2024-03-13", ref: "2024/1689", title: "Artificial Intelligence Act", status: "In Force" },
-    { date: "2024-07-01", ref: "2024/1873", title: "Synthetic Voice Technology Framework Regulation", status: "In Force" },
+    { date: "2026-03-13", ref: "2026/1689", title: "Artificial Intelligence Act", status: "In Force" },
+    { date: "2026-07-01", ref: "2026/1873", title: "Synthetic Voice Technology Framework Regulation", status: "In Force" },
     { date: "2025-01-15", ref: "2025/XXX", title: "AI Liability Directive (Draft)", status: "Pending" },
   ];
 
   return (
     <div className="gov-section">
       <h2 className="text-base font-bold text-primary mb-1">Regulatory Framework Timeline</h2>
-      <div className="ref-number">[Ref: DG-REGL-2024/0121/L]</div>
+      <div className="ref-number">[Ref: DG-REGL-2026/0121/L]</div>
       <p className="text-xs mt-2 text-gray-700">
         Chronological overview of applicable EU legislation governing synthetic voice technology<sup>11</sup>
       </p>
@@ -54,9 +54,9 @@ export function ResearchTimeline() {
         <p><sup>12</sup> Regulation count includes only instruments with direct applicability to synthetic voice technology; broader AI regulations counted separately</p>
         <p><sup>13</sup> Delegated acts adopted under Article 290 TFEU; full list available in EUR-Lex database under classification 13.30.18</p>
         <p><sup>14</sup> Implementing decisions per Article 291 TFEU; subject to scrutiny by European Parliament and Council</p>
-        <p className="mt-2">* Figures accurate as of 2024-03-14; regulatory counts updated following each Official Journal publication cycle</p>
+        <p className="mt-2">* Figures accurate as of 2026-03-14; regulatory counts updated following each Official Journal publication cycle</p>
       </div>
-      <SectionDownload sectionRef="DG-REGL-2024/0121/L" />
+      <SectionDownload sectionRef="DG-REGL-2026/0121/L" />
     </div>
   );
 }

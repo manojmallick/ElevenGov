@@ -24,7 +24,7 @@ export function CookieBanner() {
       <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
         <div className="bg-white border-2 border-gray-400 max-w-xl w-full shadow-lg max-h-[90vh] overflow-y-auto">
           <div className="bg-primary text-white p-2 text-xs font-bold border-b border-gray-400">
-            IMPORTANT: Cookie and Privacy Notification [Ref: DG-COOK-2024/0001/A]
+            IMPORTANT: Cookie and Privacy Notification [Ref: DG-COOK-2026/0001/A]
           </div>
           <div className="p-3">
             <div className="bg-yellow-100 border border-yellow-600 p-2 mb-3">
@@ -32,7 +32,7 @@ export function CookieBanner() {
             </div>
             <p className="text-xs mb-2 leading-relaxed">
               Pursuant to Regulation (EU) 2016/679 (General Data Protection Regulation), Directive 2002/58/EC (ePrivacy Directive), 
-              and Commission Implementing Decision (EU) 2024/1847, this portal requires your explicit consent for the use of cookies 
+              and Commission Implementing Decision (EU) 2026/1847, this portal requires your explicit consent for the use of cookies 
               and similar tracking technologies.<sup>1</sup>
             </p>
             <p className="text-xs mb-3 leading-relaxed">
@@ -64,7 +64,7 @@ export function CookieBanner() {
       <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
         <div className="bg-white border-2 border-gray-400 max-w-xl w-full shadow-lg max-h-[90vh] overflow-y-auto">
           <div className="bg-primary text-white p-2 text-xs font-bold border-b border-gray-400">
-            Cookie Preferences — Step 1 of 2 [Form EUD-COOK-2024]
+            Cookie Preferences — Step 1 of 2 [Form EUD-COOK-2026]
           </div>
           <div className="p-3">
             <p className="text-xs mb-3 text-gray-700">Select cookie categories. All selections are logged for compliance auditing.</p>
@@ -74,7 +74,7 @@ export function CookieBanner() {
                 <input type="checkbox" defaultChecked disabled readOnly className="mt-0.5" />
                 <div>
                   <span className="font-bold">Essential Cookies (Mandatory)</span>
-                  <p className="text-gray-600">Required for portal operation. Cannot be disabled per Regulation 2024/1873 Art. 4(2).</p>
+                  <p className="text-gray-600">Required for portal operation. Cannot be disabled per Regulation 2026/1873 Art. 4(2).</p>
                 </div>
               </label>
               <label className="flex items-start gap-2 pb-1 border-b border-gray-300">
@@ -133,7 +133,7 @@ export function CookieBanner() {
       <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
         <div className="bg-white border-2 border-gray-400 max-w-xl w-full shadow-lg max-h-[90vh] overflow-y-auto">
           <div className="bg-primary text-white p-2 text-xs font-bold border-b border-gray-400">
-            Mandatory Acknowledgments — Step 2 of 2 [Form EUD-COOK-2024]
+            Mandatory Acknowledgments — Step 2 of 2 [Form EUD-COOK-2026]
           </div>
           <div className="p-3">
             <div className="bg-red-50 border border-red-400 p-2 mb-3">

@@ -3,7 +3,7 @@ export function AgentsSection() {
     <div className="p-6 m-4">
       <div className="bg-white border border-gray-400 p-6">
         <h2 className="text-xl font-bold text-primary mb-2">Conversational Intelligence Governance Framework</h2>
-        <div className="ref-number">[Ref: DG-CONV-2024/0061/H]</div>
+        <div className="ref-number">[Ref: DG-CONV-2026/0061/H]</div>
 
         <div className="eu-yellow-box mt-4">
           <p className="font-bold text-xs">⚠ Mandatory Compliance Requirements</p>
@@ -46,7 +46,7 @@ export function AgentsSection() {
             <tr>
               <td>Response Verification</td>
               <td>Factual accuracy review for sensitive topics</td>
-              <td>Risk Mitigation Protocol DG-RISK-2024</td>
+              <td>Risk Mitigation Protocol DG-RISK-2026</td>
             </tr>
           </tbody>
         </table>
