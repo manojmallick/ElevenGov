@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 
-export function PageSidebar() {
+export function PageSidebar({ onOpenAssistant }: { onOpenAssistant: () => void }) {
   const [activeSection, setActiveSection] = useState('')
 
   const sections = [
@@ -59,6 +59,7 @@ export function PageSidebar() {
         </nav>
         <div className="mt-3 pt-2 border-t border-gray-400">
           <button
+            onClick={onOpenAssistant}
             className="w-full px-2 py-1 bg-primary text-white text-xs font-bold border border-gray-400 hover:bg-blue-800 mb-2"
             data-action="ask-portal"
           >

@@ -57,7 +57,7 @@ export default function ElevenLabsHomePage() {
         </div>
         
         {/* Right sidebar */}
-        <PageSidebar />
+        <PageSidebar onOpenAssistant={() => setIsAssistantOpen(true)} />
       </div>
       
       <Footer />

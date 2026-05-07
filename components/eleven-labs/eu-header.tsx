@@ -30,22 +30,42 @@ export function EUHeader({
           </div>
         </div>
         
-        {/* Listen to Page Button */}
-        <button 
-          onClick={onListenClick}
-          className="flex items-center gap-2 px-2 sm:px-3 py-1.5 sm:py-2 bg-gray-200 border-2 border-gray-400 hover:bg-gray-300 transition-colors flex-shrink-0"
-          title="Narrate this page using official EU voice"
-          data-action="listen-page"
-        >
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-700 flex-shrink-0">
-            <path d="M11 5L6 9H2v6h4l5 4V5z"/>
-            <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/>
-          </svg>
-          <div className="text-left">
-            <p className="text-xs font-bold text-gray-700 whitespace-nowrap">LISTEN TO PAGE</p>
-            <p className="text-xs text-gray-500 hidden sm:block">ACCESSIBILITY FEATURE</p>
-          </div>
-        </button>
+        {/* Action Buttons */}
+        <div className="flex gap-2">
+          <button 
+            onClick={onListenClick}
+            className="flex items-center gap-2 px-2 sm:px-3 py-1.5 sm:py-2 bg-gray-200 border-2 border-gray-400 hover:bg-gray-300 transition-colors flex-shrink-0"
+            title="Narrate this page using official EU voice"
+            data-action="listen-page"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-700 flex-shrink-0">
+              <path d="M11 5L6 9H2v6h4l5 4V5z"/>
+              <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/>
+            </svg>
+            <div className="text-left">
+              <p className="text-xs font-bold text-gray-700 whitespace-nowrap">LISTEN TO PAGE</p>
+              <p className="text-xs text-gray-500 hidden sm:block">ACCESSIBILITY FEATURE</p>
+            </div>
+          </button>
+          
+          <button 
+            onClick={onOpenAssistant}
+            className="flex items-center gap-2 px-2 sm:px-3 py-1.5 sm:py-2 bg-primary text-white border-2 border-gray-400 hover:bg-blue-800 transition-colors flex-shrink-0"
+            title="Open Dirk, the official portal voice assistant"
+            data-action="open-assistant"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="flex-shrink-0">
+              <rect x="2" y="3" width="20" height="14" rx="2"/>
+              <path d="M8 21h8"/>
+              <path d="M12 17v4"/>
+              <path d="M7 8h.01M12 8h.01M17 8h.01"/>
+            </svg>
+            <div className="text-left">
+              <p className="text-xs font-bold whitespace-nowrap">TERMINAL ASSISTANT</p>
+              <p className="text-xs opacity-80 hidden sm:block">DIRK v0.9.2</p>
+            </div>
+          </button>
+        </div>
       </div>
 
       {/* Top Navigation */}
