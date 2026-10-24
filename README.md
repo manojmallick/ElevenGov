@@ -187,13 +187,56 @@ ElevenGov/
 ├── lib/
 │   ├── dirk.ts                   # Deterministic assistant logic
 │   ├── pageNarrator.ts           # Page narration service
+│   ├── noticeSounds.ts           # Portal notice sound effects
 │   ├── sfx.ts                    # Sound effects system
 │   └── utils.ts                  # Utilities
+├── scripts/test-dirk.ts          # Manual test for the assistant
 ├── public/
 │   └── audio/                    # Audio files (optional)
 ├── .env.example                  # Environment template
 └── vercel.json                   # Deployment config
 ```
+
+## Scripts
+
+| Command | What it does |
+|---|---|
+| `npm run dev` | Dev server on `http://localhost:3000` |
+| `npm run build` | Production build |
+| `npm start` | Serve the production build |
+| `npm run lint` | ESLint |
+| `npx tsx scripts/test-dirk.ts` | Manual test run of the Dirk assistant's responses (no API key needed) |
+
+## TTS API
+
+The browser never sees your ElevenLabs key. It calls a server route that proxies the request.
+
+| | |
+|---|---|
+| Endpoint | `POST /api/tts` |
+| Body | `{ "text": "..." }` (trimmed; the first 5,000 characters are used) |
+| Success | Audio from ElevenLabs |
+| `400` | Empty or invalid `text` |
+| `503` | `ELEVENLABS_API_KEY` is not configured |
+
+```bash
+curl -X POST http://localhost:3000/api/tts \
+  -H "Content-Type: application/json" \
+  -d '{"text":"Your cookie preferences have been saved."}' --output out.mp3
+```
+
+## Troubleshooting
+
+| Symptom | Likely cause |
+|---|---|
+| "Listen to this page" does nothing, or `/api/tts` returns 503 | `ELEVENLABS_API_KEY` is missing in `.env.local` (restart the dev server after adding it) |
+| Dirk answers but has no voice | Same as above; Dirk's answers are deterministic and work without the API, only speech needs the key |
+| Sound effects are silent | The optional MP3s in `public/audio/` are missing; this is expected |
+
+## More documentation
+
+- [ARCHITECTURE.md](ARCHITECTURE.md): system design and diagrams
+- [DEMO_PLAN.md](DEMO_PLAN.md): a structured 8-12 minute demo walkthrough
 
 ## Audio Files (Optional)
 
